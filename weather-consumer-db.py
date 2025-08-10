@@ -6,7 +6,7 @@ import psycopg2
 conn = psycopg2.connect(
     dbname="weather_db",
     user="postgres",
-    password="Mahlatsi#0310",
+    password=`Password`,
     host="localhost",
     port="5432"
 )
