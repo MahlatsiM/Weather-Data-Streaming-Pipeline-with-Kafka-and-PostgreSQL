@@ -33,7 +33,7 @@ services:
     platform: linux/amd64
     environment:
       POSTGRES_USER: "postgres"
-      POSTGRES_PASSWORD: "Mahlatsi#0310"
+      POSTGRES_PASSWORD: `Password`
       POSTGRES_DB: weather_db
     ports:
       - "5432:5432"
